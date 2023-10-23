@@ -1,0 +1,26 @@
+pyuic5 TicketHelp.ui -o TicketHelp.py
+
+
+import file_rc
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
+
+
+    self.add_styles_instance = AddStyles()
+
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import pyqtSignal, QObject
+from PyQt5.QtWidgets import QApplication, QMessageBox
+from datetime import datetime
+import schedule
+import win32clipboard
+import os
+from stylesTicket import AddStyles

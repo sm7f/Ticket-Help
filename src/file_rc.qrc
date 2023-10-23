@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="Close_image">
+    <file>debug.svg</file>
+    <file>tools.svg</file>
+  </qresource>
+  <qresource prefix="background">
+    <file>tickethelp.png</file>
+    <file>maqq1.png</file>
+    <file>folder.svg</file>
+  </qresource>
+</RCC>
